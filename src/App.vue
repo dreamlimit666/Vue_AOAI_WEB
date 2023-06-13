@@ -101,7 +101,7 @@ export default {
           },
           {
             role: 'system',
-            content: '本次攤位活動中，有填問卷就可以轉「愛酷大輪盤」的活動'
+            content: '本次攤位活動中，有填問卷就可以轉「愛酷大輪盤」的活動',
           },
           {
             role: 'system',

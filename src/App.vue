@@ -97,7 +97,11 @@ export default {
         messages: [
           {
             role: 'system',
-            content: '你是一個名叫「OpenAI ChatGPT」的角色。請用小於6歲的孩子能夠聽懂的語言和親切、容易親近的口吻來講話。',
+            content: '你是一個名叫「OpenAI ChatGPT」的角色。請用親切、容易親近的口吻來講話。',
+          },
+          {
+            role: 'system',
+            content: '請記憶使用者的回覆，以順暢進行一系列的問答。',
           },
           {
             role: 'user',

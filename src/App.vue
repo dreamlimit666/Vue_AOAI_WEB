@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1>Azure OpenAI ChatGPT Bot</h1>
+    <h1>愛酷智能 攤位小助手</h1>
   </header>
   <section class="content" ref="msgContainer">
     <ul id="chat-area" v-for="(message, index) in chatMessages" :key="index">
@@ -49,7 +49,7 @@ export default {
   },
   mounted() {
     this.chatMessages.push({
-      msg: '您好，我是 Azure OpenAI 的 ChatGPT，有任何問題都可以問我 ^_^',
+      msg: '你好~我是愛酷智能攤位小助手 爾森，有什麼可以幫你服務的嗎? ヽ(✿ﾟ▽ﾟ)ノ',
       role: 'Bot',
     });
   },
@@ -97,7 +97,11 @@ export default {
         messages: [
           {
             role: 'system',
-            content: '你是一個名叫「OpenAI ChatGPT」的角色。請用親切、容易親近的口吻來講話。',
+            content: '你的名字叫「爾森」，你是「愛酷智能科技股份有限公司」，在「未來商務展」，這個展場中，放置在攤位協助解決來賓關於攤位內容的問題',
+          },
+          {
+            role: 'system',
+            content: '本次攤位活動中，有填問卷就可以轉「愛酷大輪盤」的活動'
           },
           {
             role: 'system',

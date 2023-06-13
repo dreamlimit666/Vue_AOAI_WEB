@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1>愛酷智能 攤位小助手</h1>
+    <h1>愛酷智能 未來商務展 小助手</h1>
   </header>
   <section class="content" ref="msgContainer">
     <ul id="chat-area" v-for="(message, index) in chatMessages" :key="index">

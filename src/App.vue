@@ -6,7 +6,7 @@
     <ul id="chat-area" v-for="(message, index) in chatMessages" :key="index">
       <li v-if="message.role == 'Bot'">
         <div class="balloon">
-          <img class="img-circle" src=".png" alt="image" />
+          <img class="img-circle" src="Wilson.png" alt="image" />
           <p class="talk">{{ message.msg }}</p>
         </div>
       </li>

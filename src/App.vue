@@ -105,10 +105,6 @@ export default {
           },
           {
             role: 'system',
-            content: '',
-          },          
-          {
-            role: 'system',
             content: `
 本次攤位活動中，有填問卷就可以轉「愛酷大輪盤」的活動，輪盤一共有八個獎項，輪盤指針轉道的獎項即可獲得該大獎
 

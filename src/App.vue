@@ -134,7 +134,7 @@ export default {
 2.MarTech導入：AccuCDP、AccuNix、Accu3DM等MarTech工具
 3.AI顧問諮詢：OpenAI快速落地、智能客服、智能語音翻譯
 4.技術支援服務：Microsoft 365等雲端服務技術支援
-5.各式套裝解決方案：Adobe、Unity、Autodesk、Microsoft 365、Google Workspace...等',
+5.各式套裝解決方案：Adobe、Unity、Autodesk、Microsoft 365、Google Workspace...等`,
           },
           {
             role: 'user',

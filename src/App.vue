@@ -150,12 +150,12 @@ export default {
       };
       try {
         const res = await axios.post(
-          'https://aoia-demo.openai.azure.com/openai/deployments/DemoWeb/chat/completions?api-version=2023-03-15-preview',
+          'https://labweb.openai.azure.com/openai/deployments/WEBTEST/chat/completions?api-version=2023-03-15-preview',
           JSON.stringify(reqBody),
           {
             headers: {
               'content-type': 'application/json',
-              'api-key': 'fdaf1146cc084cf6b7384a004c474313',
+              'api-key': '01570739985549958f5ce01994f7abd3',
             },
           },
         );
